@@ -12,9 +12,9 @@ p + geom_line(data=d, aes(x=lon, y=lat), color="black", size=1)
 
 #load csv file
 getwd()
-setwd("C:\\Users\\yue.yuan\\Documents\\Yue Yuan Documents\\R\\documents\\demo")
+setwd("...")
 #vessel 1
-vel1 <- read.csv("HVP_477766400.CSV")
+vel1 <- read.csv("....CSV")
 head(vel1)
 vel1 <- vel1[c("mmsi","longitude","latitude")]
 head(vel1)
@@ -29,7 +29,7 @@ p<- ggmap(m1)
 p + geom_line(data = vel1, aes(x=longitude, y = latitude), color = "black", size = 0.5)
 
 #vessel 1 & 2
-vel2 <- read.csv("HVP_477770900.csv")
+vel2 <- read.csv("....csv")
 vel2 <- vel2[,c("mmsi","longitude","latitude")]
 head(vel2)
 vel1.2<- rbind(vel1,vel2)

@@ -9,7 +9,7 @@ library(geosphere)
 #demo
 
 # change directory
-setwd("c:/Users/yue.yuan/Documents/Yue Yuan Documents/Yuan Yue/chartering/ports/AtoBviaC/voyage_demo")
+setwd("...")
 
 # filenames <- gsub("\\.csv$","", list.files(pattern="\\.csv$"))
 
@@ -78,7 +78,7 @@ write.csv(tnew,file = i,row.names = F)
 
 
 # change directory
-setwd("c:/Users/yue.yuan/Documents/Yue Yuan Documents/Yuan Yue/chartering/ports/voyages")
+setwd("...")
 
 # filenames <- gsub("\\.csv$","", list.files(pattern="\\.csv$"))
 
@@ -146,7 +146,7 @@ library(geosphere)
 
 # change directory
 
-setwd("c:/Users/yue.yuan/Documents/Yue Yuan Documents/Yuan Yue/chartering/ports/voyages")
+setwd("...")
 
 # filenames <- gsub("\\.csv$","", list.files(pattern="\\.csv$"))
 
